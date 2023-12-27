@@ -9,22 +9,20 @@ const Home: NextPage = () => {
        <div className={styles.container}>
         <div className={styles.header}>
         <h1 className={styles.title}>
-            Welcome to{""}
+            {" "}
             <span className={styles.gradientText0}>
               <a
                 href="https://thirdweb.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                thirdweb.
+                0x Domain Staking
               </a>
             </span>
           </h1>
 
           <p className={styles.description}>
-            Stake Your 0x Domain to get H Token{" "}
-            <code className={styles.code}>src/index.js</code>, {" "}
-            <code className={styles.code}>src/App.js</code> 
+            Stake Your 0x Domain to get H Token
           </p>
 
           <div className={styles.connect}>
